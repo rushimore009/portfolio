@@ -1,0 +1,43 @@
+.open-for-work-container {
+    width: 100%;
+    /* max-width: 800px; */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .division {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .division h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .division-text {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .typed {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+    animation: typing;
+    animation-duration: 3s;
+    animation-timing-function: steps(30, end);
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  .shadow{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }

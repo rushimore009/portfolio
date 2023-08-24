@@ -1,0 +1,18 @@
+  .division {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .division h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .division-text {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  

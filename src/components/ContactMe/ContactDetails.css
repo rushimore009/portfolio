@@ -1,0 +1,33 @@
+.contact-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .contact-item {
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  .contact-item h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-size-adjust: 0.5;
+    overflow-wrap: break-word;
+  }
+  
+  .contact-item p {
+    font-size: 1.2rem;
+    color: rgb(180, 169, 169);
+  }
+  

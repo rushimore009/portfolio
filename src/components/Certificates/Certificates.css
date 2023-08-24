@@ -1,0 +1,64 @@
+/* Certificates.css */
+.certificate-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.certificate-item {
+  cursor: pointer;
+  text-align: center;
+}
+
+.certificate-item img {
+  min-width: 250px; /* Initial small size */
+  min-height: 250px;
+  max-width: 300px; /* Initial small size */
+  max-height: 300px;
+  transition: all 0.3s ease-in-out; /* Smooth transition when changing size */
+}
+
+.certificate-item.active {
+  opacity: 0.5;
+}
+
+.certificate-item h2 {
+  margin: 10px 0;
+}
+
+.full-screen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.back-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.full-screen-overlay img {
+  max-width: 90%;
+  max-height: 80%;
+  object-fit: contain;
+}
+
+@media screen and (max-width: 768px) {
+  .certificate-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+}

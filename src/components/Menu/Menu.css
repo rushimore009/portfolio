@@ -1,0 +1,27 @@
+.vertical-menu-bar {
+  /* display: flex;
+  flex-direction: column; */
+  width: auto;
+  /* background-color: #f2f2f2; */
+}
+
+.menu-item {
+  padding: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.menu-item.active {
+  background-color: gray;
+  color: white;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+}

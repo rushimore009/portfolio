@@ -1,0 +1,39 @@
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background-color: #f4f4f4; */
+  }
+  
+  .content {
+    width: 80%;
+    max-width: 800px;
+    /* background-color: white; */
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .division {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .division h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .sub-division {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+  }
+  
+  .sub-division.show {
+    max-height: 500px;
+  }
+  

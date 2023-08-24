@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.8f0cee00.css",
+    "main.js": "/portfolio/static/js/main.084b1a09.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/drone.jpg": "/portfolio/static/media/drone.711df05844e673cca46a.jpg",
+    "static/media/CADC Certificate Rushi.jpg": "/portfolio/static/media/CADC Certificate Rushi.10e75f91460dc8a20b15.jpg",
+    "static/media/CADC R.jpg": "/portfolio/static/media/CADC R.f80ba5aa81b63efb5e8f.jpg",
+    "static/media/weather.jpg": "/portfolio/static/media/weather.8e5bee0db9e29f3b5783.jpg",
+    "static/media/shearwalls.png": "/portfolio/static/media/shearwalls.6848c97eb70e185e2aa6.png",
+    "static/media/under_construction.jpg": "/portfolio/static/media/under_construction.cd4252ba68090095e4c8.jpg",
+    "static/media/VSMSDatabaseERD.png": "/portfolio/static/media/VSMSDatabaseERD.e8213b2e20f8b9134b17.png",
+    "static/media/contact.gif": "/portfolio/static/media/contact.6020c2a9a682768b6699.gif",
+    "index.html": "/portfolio/index.html",
+    "main.8f0cee00.css.map": "/portfolio/static/css/main.8f0cee00.css.map",
+    "main.084b1a09.js.map": "/portfolio/static/js/main.084b1a09.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f0cee00.css",
+    "static/js/main.084b1a09.js"
+  ]
+}
